@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: rgb(239, 239, 240);
+}
+/* .bg-light{
+  background: rgb(150, 144, 144);
+  padding: 10px;
+} */
+.about {
+  height: 100vh;
+}
+.plus_sign {
+  color: rgb(19, 19, 172);
+  background-color: rgb(194, 191, 191);
+}
+.plus_sign:hover {
+  background: black;
+  color: rgb(134, 115, 115);
+}
+.Title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.Note {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  /* margin-top: 5px; */
+  display: flex;
+  flex-direction: column;
+  widows: 50%;
+  margin: 20px 20px;
+}
